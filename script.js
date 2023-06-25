@@ -4,7 +4,7 @@ let playerOneImg = document.querySelector(".player-one-img");
 let playerTwoImg = document.querySelector(".player-two-img");
 let winner = document.querySelector(".winner");
 let playBtn = document.querySelector(".play-btn")
-let images = ["images/scissors.png", "images/rock.png", "images/paper.png"];
+let images = ["/images/scissors.png", "/images/rock.png", "/images/paper.png"];
 
 // check to see if players played
 let playerOnePlayed = false;
